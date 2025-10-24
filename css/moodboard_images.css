@@ -17,7 +17,7 @@ body {
     border: 2px solid rgba(150, 0, 0, 0.3);
     overflow: hidden;
     position: relative;
-    background: #000;
+    background: rgba(20, 20, 20, 0.85);
     cursor: grab;
     border-radius: 15px;
 }
