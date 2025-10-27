@@ -58,6 +58,7 @@ header h1 {
   color: #ca2525;
   letter-spacing: 3px;
   animation: neon 5s infinite;
+  padding-bottom: 5px;
 }
 
 header h2 {
@@ -66,6 +67,7 @@ header h2 {
   color: #ca2525;
   letter-spacing: 3px;
   animation: neon 5s infinite;
+  padding-bottom: 3px;
 }
 
 header p {
