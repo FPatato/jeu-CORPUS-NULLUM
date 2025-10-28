@@ -58,7 +58,6 @@ header h1 {
   color: #ca2525;
   letter-spacing: 3px;
   animation: neon 5s infinite;
-  padding-bottom: 5px;
 }
 
 header h2 {
@@ -67,7 +66,6 @@ header h2 {
   color: #ca2525;
   letter-spacing: 3px;
   animation: neon 5s infinite;
-  padding-bottom: 3px;
 }
 
 header p {
@@ -77,11 +75,17 @@ header p {
 }
 
 header hr {
-  border: none;        /* enlève le style par défaut */
-  height: 2px;         /* épaisseur de la ligne */
-  background-color: #641212; /* couleur de la ligne */
+  border: none;
+  height: 2px;
+  width: 120%;                     /* 🔹 plus long que le conteneur */
+  background-color: #641212;
+  margin: 15px 0 0 0;
+  position: relative;              /* nécessaire pour le centrage avec transform */
+  left: 50%;                       /* déplace le centre vers le milieu du conteneur */
+  transform: translateX(-50%);     /* recentre la ligne malgré la largeur */
   animation: neon 5s infinite;
 }
+
 
 /* ======== MAIN ======== */
 main {
