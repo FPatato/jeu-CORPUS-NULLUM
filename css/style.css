@@ -68,6 +68,14 @@ header h2 {
   animation: neon 5s infinite;
 }
 
+header h3 {
+  font-family: "Spectral SC", serif;
+  font-size: 25px;
+  color: #ca2525;
+  letter-spacing: 3px;
+  animation: neon 5s infinite;
+}
+
 header p {
   margin-top: 10px;
   color: #999;
@@ -98,6 +106,13 @@ main {
 }
 
 /* ======== CARD ======== */
+.cards-container {
+  display: flex;
+  flex-direction: column; /* empile verticalement */
+  gap: 20px; /* espace entre les cards */
+  align-items: center; /* centre horizontalement les cards */
+}
+
 .card {
   background: rgba(20, 20, 20, 0.85);
   border: 1px solid rgba(150, 0, 0, 0.3);
@@ -149,7 +164,15 @@ main {
   font-size: 1.3rem;
 }
 
-.card p {
+.card h3 {
+  font-family: "Spectral SC", serif;
+  color: #ff2e2e;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.card p, ul, li {
   color: #bbb;
   font-size: 0.9rem;
   line-height: 1.6;
